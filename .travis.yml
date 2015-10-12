@@ -1,0 +1,4 @@
+language: c
+script: cd libfixmath;make;cd ..;cd unittests;make;cd ..;cd benchmarks;make
+compiler:
+  - gcc
